@@ -14,7 +14,7 @@ int main()
 		{
 			printf("*");
 		}
-		for (c = d - a; c >= 0; c--)
+		for (c = d - a; c <= 0; c--)
 		{
 			printf(" ");
 		}
