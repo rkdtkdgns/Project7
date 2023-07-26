@@ -8,22 +8,22 @@ int main()
 	c = 0;
 	printf("삼각형 한변의 길이");
 	scanf("%d", &d);
-	for (a = 1; a <= d; a++)
+	for (a = 1; a < d; a++)
 	{
 		for (b = 1; b <=a; b++)
 		{
 			printf("*");
 		}
-		for (c = d - a; c <= 0; c--)
+		for (c = d-a ; c <= 0; c--)
 		{
 			printf(" ");
 		}
-		for (e = d - a; e <= 0; c--)
-
+		for (e = 1 ; e < 0; c++)
 		{ 
 			printf("*");
 		}
 		printf("\n");
+
 	}
 	return 0;
 }
