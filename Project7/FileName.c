@@ -10,20 +10,24 @@ int main()
 	scanf("%d", &d);
 	for (a = 1; a < d; a++)
 	{
-		for (b = 1; b <=a; b++)
+		for (b = 1; b <= a; b++)
 		{
 			printf("*");
 		}
-		for (c = d-a ; c <= 0; c--)
+		for (c = d; c <= 0; c--)
 		{
 			printf(" ");
 		}
-		for (e = 1 ; e < 0; c++)
-		{ 
+		printf("\n");
+	
+		for (b = 1; b <= b - 1; b++)
+		{
+			printf(" ");
+		}
+		for (c = d; c > a; c--)
+		{
 			printf("*");
 		}
-		printf("\n");
-
 	}
 	return 0;
 }
