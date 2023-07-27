@@ -9,23 +9,23 @@ int main(){
 	scanf("%d", &d);
 	for (a = 1; a <= d; a++)
 	{
-		for (b = 1; b <= a; b++)
+		for (c = d; c > a - 1; c--)
 		{
 			printf("*");
 		}
-		for (c = d; c <= 0; c++)
+		for (b = 1; b <= a-1; b++)
+		{
+			printf(" ");
+		}
+		for (b = 1; b < a+1; b++)
+		{
+			printf("*");
+		}
+		for (c = d; c <= a+1; c++)
 		{
 			printf(" ");
 		} 
 		printf("\n");
-		for (c = d; c > a+1; c--)    
-		{
-			printf("*");
-		}
-		for (b = 1; b <= a; b++)
-		{
-			printf(" ");
-		}
 	}
 	return 0;
 }
