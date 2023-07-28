@@ -13,18 +13,18 @@ int main(){
 		{
 			printf("*");
 		}
-		for (b = 1; b <= a-1; b++)
+		for (b = 1; b <= a - 1; b++)
 		{
 			printf(" ");
 		}
-		for (b = 1; b < a+1; b++)
+		for (c = d; c > a + 1; c--)
 		{
 			printf("*");
 		}
-		for (c = d; c <= a+1; c++)
+		for (b = 1; b <= a+1; b++)
 		{
 			printf(" ");
-		} 
+		}
 		printf("\n");
 	}
 	return 0;
