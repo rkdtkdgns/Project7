@@ -8,23 +8,20 @@ int main(){
 	printf("삼각형 한변의 길이");
 	scanf("%d", &d);
 	for (a = 1; a <= d; a++)
-	{
-		for (c = d; c > a - 1; c--)
+	{ 
+		for (c = 0; c < a; c++)
 		{
 			printf("*");
 		}
-		for (b = 1; b <= a - 1; b++)
+			for (b = d-1; b > a-1 ; b--)
 		{
 			printf(" ");
 		}
-		for (c = d; c > a + 1; c--)
+		for (c = d; c > a ; c--)
 		{
 			printf("*");
 		}
-		for (b = 1; b <= a+1; b++)
-		{
-			printf(" ");
-		}
+	
 		printf("\n");
 	}
 	return 0;
