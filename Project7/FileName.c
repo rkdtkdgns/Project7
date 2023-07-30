@@ -17,7 +17,7 @@ int main(){
 		{
 			printf(" ");
 		}
-		for (c = d; c > a ; c--)
+		for (c = d; c > a-1 ; c--)
 		{
 			printf("*");
 		}
@@ -25,4 +25,5 @@ int main(){
 		printf("\n");
 	}
 	return 0;
+
 }
