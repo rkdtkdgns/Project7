@@ -24,6 +24,27 @@ int main(){
 	
 		printf("\n");
 	}
+	for (a = 1; a <= d; a++)
+	{
+		for (b = d; b >= a + 1; b--)
+		{
+			printf(" ");
+		}
+		for (c = 0; c < a; c++)
+		{
+			printf("*");
+		}
+		for (b = d; b >= a + 1; b)
+		{
+			printf(" ");
+		}
+		for (c = d; c > a+1; c--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	
 	return 0;
 
 }
